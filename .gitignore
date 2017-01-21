@@ -1,0 +1,6 @@
+*.py[cod]
+.DS_Store
+.idea/
+upload/*
+!upload/.gitkeep
+templates/

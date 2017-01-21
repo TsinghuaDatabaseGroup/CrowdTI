@@ -1,0 +1,35 @@
+python method.py answer_file, truth_file
+
+print accuracy of bcc, cbcc
+
+about '.cs':
+    Used MicrosoftResearch.Infer library,
+    specifically: Infer.Compiler.dll, Infer.Runtime.dll
+
+    Compiler is Mono (on Mac)
+    Compile:
+    mcs -r:Infer.Compiler.dll,Infer.Runtime.dll CommunityBCCSourceCode.cs
+    Run:
+    mono CommunityBCCSourceCode.exe
+
+Read data from Data/CF.csv, write output to Results/endpoints.csv
+Altered CommunityBCCSourceCode.cs, when running it on Windows, need to change "/"  --> "\" in output file path.
+
+------------------------------
+打印出 bcc, cbcc 的正确率
+
+about.cs:
+关于.cs:
+    使用了 MicrosoftResearch.Infer 库
+    涉及到 Infer.Compiler.dll, Infer.Runtime.dll
+
+    编译器为 mono (Mac 上的),
+    编译:
+    mcs -r:Infer.Compiler.dll,Infer.Runtime.dll CommunityBCCSourceCode.cs
+    运行:
+    mono CommunityBCCSourceCode.exe
+
+CommunityBCCSourceCode.exe
+从 Data/CF.csv 读入数据,将结果输出到 Results/endpoints.csv
+
+我修改了 CommunityBCCSourceCode.cs, windows 上运行的话需要将输入输出路径中的 "/" --> "\"
