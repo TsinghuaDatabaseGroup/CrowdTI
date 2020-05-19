@@ -1,5 +1,7 @@
 # CrowdTI
-### Dependency
+CrowdTI is a truth inference system in crowdsourcing which makes three contributions. Firstly, since there are dozens of truth inference algorithms, our system has implemented all of these algorithms and can automatically recommend the best inference algorithm to infer the truth of each task. Secondly, our system can help users to infer the worker quality. Thirdly, our system can visualize the results, including the inference quality and time, worker quality, and task statistics.
+
+### Dependency (Deployment on OS X)
 #### celery
 Follow instructions at [here](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html#first-steps)
 
